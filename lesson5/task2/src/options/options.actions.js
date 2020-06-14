@@ -1,10 +1,10 @@
-export const TOGGLE_OPTION = 'OPTIONS/TOGGLE_OPTION'
+export const TOGGLE_OPTION = "OPTIONS/TOGGLE_OPTION";
 
-export const toogleOption = optionId =>{
+export const toggleOption = (optionId) => {
   return {
     type: TOGGLE_OPTION,
     payload: {
       optionId,
-    }
-  }
-}
+    },
+  };
+};
